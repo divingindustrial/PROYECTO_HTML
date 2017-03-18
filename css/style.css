@@ -1,0 +1,39 @@
+.zona {
+	max-width: 100%;
+}
+
+.menu {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #005883;
+    padding: 10px 50px 10px 60px;
+}
+
+.menu li {
+	float: left;
+    display: block;
+    color: #000;
+    background-color: #f2b80d;
+    margin-right: 20px;
+    padding: 5px 10px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.menu li:hover {
+	background-color: #fff50c;
+}
+
+.menu li a {
+	color: #000;
+}
+
+.menu li a:hover {
+	text-decoration: none;
+}
+
+.imagenes div img {
+	height: 220px;
+}
