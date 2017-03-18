@@ -35,5 +35,14 @@
 }
 
 .imagenes div img {
-	height: 220px;
+	height: 180px;
+	width: 100%;
+}
+
+.pie {
+	background-color: #000;
+}
+
+.imagenes div {
+	padding: 0px;
 }
