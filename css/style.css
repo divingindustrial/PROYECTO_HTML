@@ -1,25 +1,30 @@
+div, div:hover, li, li a {
+	-webkit-transition: 0.3s; /* Safari */
+	transition: 0.3s;
+}
+
 .zona {
 	max-width: 100%;
 }
 
 .menu {
 	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #005883;
-    padding: 10px 50px 10px 60px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #005883;
+	padding: 10px 50px 10px 60px;
 }
 
 .menu li {
 	float: left;
-    display: block;
-    color: #000;
-    background-color: #f2b80d;
-    margin-right: 20px;
-    padding: 5px 10px;
-    font-weight: 700;
-    border-radius: 10px;
+	display: block;
+	color: #000;
+	background-color: #f2b80d;
+	margin-right: 20px;
+	padding: 5px 10px;
+	font-weight: 700;
+	border-radius: 10px;
 }
 
 .menu li:hover {
@@ -45,4 +50,32 @@
 
 .imagenes div {
 	padding: 0px;
+}
+
+.contenedor-videos img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.m-b {
+	margin-bottom: 10px;
+	padding: 10px;
+
+}
+
+.m-b:hover {
+	background-color: rgb(229, 174, 19);
+	color: #FFF;
+}
+
+.activo {
+	background-color: rgb(229, 174, 19);
+	color: #FFF;
+}
+
+.titulo-videos {
+	font-size: 20px;
+	font-weight: 600;
+	-webkit-transition: 0.3s; /* Safari */
+	transition: 0.3s;
 }
