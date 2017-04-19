@@ -1,0 +1,22 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1112" measuredH="847" mockupW="1000" mockupH="800">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="112" y="47" w="1000" h="800" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="116" y="124" w="993" h="125" measuredW="1140" measuredH="148" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../../DISE%25C3%2591O%2520DE%2520SITIOS%2520WEB/SESION%25202%2520pilas/IMAGENES%2520CREATIVE%2520COMMON/barra%2520superior.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="116" y="741" w="995" h="83" measuredW="1170" measuredH="83" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>../../DISE%25C3%2591O%2520DE%2520SITIOS%2520WEB/SESION%25202%2520pilas/IMAGENES%2520CREATIVE%2520COMMON/barra%2520inferior.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

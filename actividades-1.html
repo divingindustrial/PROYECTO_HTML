@@ -1,0 +1,325 @@
+<html>
+<head>
+	<!-- CODIFICACIÓN URF-8 PARA TILDES Y Ñ -->
+	<meta charset="UTF-8">
+	<!-- FIN CODIFICACION -->
+
+	<title>Fundamentos de la seguridad informática</title>
+	<!-- INCLUIMOS LIBRERIA BOOTSTRAP -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="js/PgwSlideshow-master/pgwslideshow_light.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap-social.css">
+	<!-- FIN BOOTSTRAP -->
+
+	<!-- INICIO ESTILOS PROPIOS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- FIN ESTILOS PROPIOS -->
+
+	<!-- INICIO JQUERY -->
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src='https://cdn.rawgit.com/Pagawa/PgwSlideshow/master/pgwslideshow.min.js'></script>
+	<link rel='stylesheet' href='https://cdn.rawgit.com/Pagawa/PgwSlideshow/master/pgwslideshow.min.css'>
+	<script>
+		$(document).ready(function() {
+			$('.pgwSlideshow').pgwSlideshow({
+				autoSlide: true,
+				maxHeight: 300
+			});
+		});
+	</script>
+	<!-- FIN JQUERY -->
+</head>
+<body>
+	<div class="container">
+		<!-- BARRA SUPERIOR, LOGO Y ZONA SANTA MARTA -->
+		<div class="row">
+			<div class="col-sm-4">
+				<center><img src="imagenes/LOGOUNAD.png" /></center>
+			</div>
+			<div class="col-sm-8" style="text-align: right;">
+				<img src="imagenes/zonacaribe.png" class="zona" />
+			</div>
+		</div>
+		<!-- FIN ZONA SUPERIOR -->
+		<!-- MENU PRINCIPAL -->
+		<div class="row">
+			<div class="col-sm-12">
+				<ul class="menu">
+					<li><a href="index.html">< Inicio</a></li>
+					<li><a href="lecturas-1.html">< Lecturas</a></li>
+					<li><a href="multimedia-1.html">< Multimedia</a></li>
+					<li><a href="actividades.html">< Actividad</a></li>
+					<li><a href="autores.html">< Autores</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- FIN MENU PRINCIPAL -->
+		<!-- INICIO CONTENIDO DE IMAGENES Y TEXTO -->
+		<div class="row" style="margin: 30px 0px;">
+			<center><h1>Actividades</h1></center>
+			<div class="row" style="margin-bottom: 40px;">
+				<p>¿Qué es seguridad informática?<span id="p1"></span></p>
+				<input type="radio" name="p1" value="a">A. Es la seguridad que informa<br />
+				<input type="radio" name="p1" value="b">B.	Son las prevenciones virtuales en contra de riesgos o virus en la web y conectores USB y similares<br />
+				<input type="radio" name="p1" value="c">C.	Es el informe que se hace a un estudio de seguridad<br />
+			</div>
+
+			<div class="row" style="margin-bottom: 40px;">
+				<p>¿Qué es un Hacker?<span id="p2"></span></p>
+				<input type="radio" name="p2" value="a">A.	Un deportista olímpico<br />
+				<input type="radio" name="p2" value="b">B.	Un juego de video<br />
+				<input type="radio" name="p2" value="c">C.	Una persona que roba información e la web<br />
+			</div>
+
+			<div class="row" style="margin-bottom: 40px;">
+				<p>¿A qué equipos se le instalan softwares de seguridad?<span id="p3"></span></p>
+				<input type="radio" name="p3" value="a">A.	A computadores, tablets, celulares etc.<br />
+				<input type="radio" name="p3" value="b">B.	A la cámara de fotografías<br />
+				<input type="radio" name="p3" value="c">C.	A el equipo de audio<br />
+			</div>
+
+			<div class="row" style="margin-bottom: 40px;">
+				<p>¿Si te hacen una llamada preguntando datos personales, identificándose como una entidad bancaria, qué harías?<span id="p4"></span></p>
+				<input type="radio" name="p4" value="a">A.	Brindar la información<br />
+				<input type="radio" name="p4" value="b">B.	Escuchar a la persona a ver si te inspira confianza por la información que te brinda<br />
+				<input type="radio" name="p4" value="c">C.	Llamar a la entidad bancaria y a la policía para reportar esta llamada<br />
+			</div>
+
+			<div class="row" style="margin-bottom: 40px;">
+				<p>¿Que es la ingeniería social?<span id="p5"></span></p>
+				<input type="radio" name="p5" value="a">A.	Es el arte de engañar a las personas para obtener entrada a su pc<br />
+				<input type="radio" name="p5" value="b">B.	Es una ingeniería para hacer sociable al ser humano<br />
+				<input type="radio" name="p5" value="c">C.	Es una ingeniería para hacer más feliz a las personas<br />
+			</div>
+
+			<div class="row" style="margin-bottom: 40px;">
+				<p>Los que practican la ingeniería social lo hacen por medio de<span id="p6"></span></p>
+				<input type="radio" name="p6" value="a">A.	por medio de E-mail <br />
+				<input type="radio" name="p6" value="b">B.	por medio de archivos gratis<br />
+				<input type="radio" name="p6" value="c">C.	archivos infectados en USB, Sd y disco duros externos<br />
+				<input type="radio" name="p6" value="d">D.	Todas las anteriores<br />
+			</div>
+
+			<div class="row" style="margin-bottom: 40px;">
+				<p>Cuál es el eslabón más débil para un ingeniero social?<span id="p7"></span></p>
+				<input type="radio" name="p7" value="a">A.	Los antivirus con licencias.<br />
+				<input type="radio" name="p7" value="b">B.	Los antimalware con licencia.<br />
+				<input type="radio" name="p7" value="c">Los usuarios sin conocimiento de seguridad industrial<br />
+			</div>
+
+			<div class="row" style="margin-bottom: 40px;">
+				<p>Los archivos sensibles donde deberían estar?<span id="p8"></span></p>
+				<input type="radio" name="p8" value="a">A.	Pueden ser almacenados en Disco Duros Externos Usb<br />
+				<input type="radio" name="p8" value="b">B.	En memorias como las USB y las SD<br />
+				<input type="radio" name="p8" value="c">C.	Nubes en la internet con clave encriptada<br />
+				<input type="radio" name="p8" value="d">D.	Todas las anteriores<br />
+			</div>
+
+			<div class="row" style="margin-bottom: 40px;">
+				<p>Comes en un restaurante, a la hora de pagar con tu tarjeta:<span id="p9"></span></p>
+				<input type="radio" name="p9" value="a"> a) Pido al mesero que traiga la terminal a la mesa.<br />
+				<input type="radio" name="p9" value="b">b) Pago y reviso en casa que no me hayan hecho un doble cargo.<br />
+				<input type="radio" name="p9" value="c">c) La entrego y espero a que el mesero vuelva con ésta y con el Boucher.<br />
+			</div>
+
+			<div class="row" style="margin-bottom: 40px;">
+				<p>Al ingresar al portal de tu banco:<span id="p10"></span></p>
+				<input type="radio" name="p10" value="a">a) Tecleo directamente la página en la barra de direcciones.<br />
+				<input type="radio" name="p10" value="b">b) Uso el buscador de internet Para encontrar la página.<br />
+				<input type="radio" name="p10" value="c">c) Entro mediante el hipervínculo de un correo que me envió mi banco.<br />
+			</div>
+
+			<div class="row" style="margin-bottom: 40px;">
+				<p>Tu tarjeta de débito incluye protección contra fraudes:<span id="p11"></span></p>
+				<input type="radio" name="p11" value="a">a) Mi contrato especifica que cuento con el seguro / contraté el seguro.<br />
+				<input type="radio" name="p11" value="b">b) Desconozco si mi plástico cuenta con la protección. Investigaré.<br />
+				<input type="radio" name="p11" value="c">c) No creo necesitarlo, jamás he sido víctima de un fraude.<br />
+			</div>
+
+			<div class="row" style="margin-bottom: 40px;">
+				<p>¿Cómo identificas que una página de internet es segura (que tus datos estarán protegidos)?<span id="p12"></span></p>
+				<input type="radio" name="p12" value="a">a) Si la dirección que aparece en la barra del explorador comienza con https y en la parte inferior (o superior) del navegador hay un candado.<br />
+				<input type="radio" name="p12" value="b">b) Me informo en blogs o foros si la página es de confianza.<br />
+				<input type="radio" name="p12" value="c">c) No hay forma de saberlo.<br />
+			</div>
+
+			<div class="row" style="margin-bottom: 40px;">
+				<p>Retiras efectivo de un cajero automático, antes de hacerlo:<span id="p13"></span></p>
+				<input type="radio" name="p13" value="a"> a) Reviso que no haya dispositivos extraños y cubro con mi mano el teclado al capturar mi NIP.<br />
+				<input type="radio" name="p13" value="b">b) Compruebo que nadie me esté vigilando.<br />
+				<input type="radio" name="p13" value="c">c) ¿Qué tendría que hacer?<br />
+			</div>
+
+			<div class="row" style="margin-bottom: 40px;">
+				<p>Te llega un correo electrónico avisándote que tu cuenta de banca por internet ha sido bloqueada. Te piden que llenes un formulario con los datos de tu tarjeta, tú:<span id="p14"></span></p>
+				<input type="radio" name="p14" value="a"> a) Lo ignoro y doy aviso a mi banco.<br />
+				<input type="radio" name="p14" value="b">b) Me preocupo y trato de comunicarme con mi banco.<br />
+				<input type="radio" name="p14" value="c">c) Respondo de inmediato al correo llenando los datos que me solicitan.<br />
+			</div>
+		</div>
+		<!-- FIN IMAGENES -->
+		<!-- INICIO PIE DE PAGINA -->
+		<div class="row pie">
+			<div class="col-sm-4">
+				<center><img src="imagenes/LOGOUNADNEGRO.png" style="max-width: 100%;" /></center>
+			</div>
+			<div class="col-sm-4" style="padding-top: 10px;">
+				<center><script type="text/javascript" src="https://counter7.fcs.ovh/private/counter.js?c=0f6fe9f2f6f1ec8a912cf872aa7b0ea7"></script>
+					<noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas"><img src="https://counter7.fcs.ovh/private/contadorvisitasgratis.php?c=0f6fe9f2f6f1ec8a912cf872aa7b0ea7" border="0" title="contador de visitas" alt="contador de visitas"></a></noscript></center>
+
+				</div>
+				<div class="col-sm-4" style="text-align: right; padding-top: 17px;">
+					<a class="btn btn-social-icon btn-google" href="https://plus.google.com/u/0/103454160684141922113" target="_blank">
+						<span class="fa fa-google"></span>
+					</a>
+					<a class="btn btn-social-icon btn-twitter" href="https://twitter.com/Buzo_industrial" target="_blank">
+						<span class="fa fa-twitter"></span>
+					</a>
+					<a class="btn btn-social-icon btn-github" href="https://github.com/divingindustrial" target="_blank">
+						<span class="fa fa-github"></span>
+					</a>
+				</div>
+			</div>
+			<!-- FIN PIE DE PAGINA -->
+			<script type="text/javascript">
+				$( document ).ready(function() {
+					$( "input[name='p1']" ).click(function(){
+						var value = $(this).val();
+						if(value=="b") {
+							$("#p1").html("<img src='imagenes/1.png' style='width: 20px;'/>");
+						} else {
+							$('#p1').html("<img src='imagenes/2.png' style='width: 20px;'/>");
+						}
+					});
+
+					$( "input[name='p2']" ).click(function(){
+						var value = $(this).val();
+						if(value=="c") {
+							$("#p2").html("<img src='imagenes/1.png' style='width: 20px;'/>");
+						} else {
+							$('#p2').html("<img src='imagenes/2.png' style='width: 20px;'/>");
+						}
+					});
+
+					$( "input[name='p3']" ).click(function(){
+						var value = $(this).val();
+						if(value=="a") {
+							$("#p3").html("<img src='imagenes/1.png' style='width: 20px;'/>");
+						} else {
+							$('#p3').html("<img src='imagenes/2.png' style='width: 20px;'/>");
+						}
+					});
+
+					$( "input[name='p4']" ).click(function(){
+						var value = $(this).val();
+						if(value=="c") {
+							$("#p4").html("<img src='imagenes/1.png' style='width: 20px;'/>");
+						} else {
+							$('#p4').html("<img src='imagenes/2.png' style='width: 20px;'/>");
+						}
+					});
+
+					$( "input[name='p5']" ).click(function(){
+						var value = $(this).val();
+						if(value=="a") {
+							$("#p5").html("<img src='imagenes/1.png' style='width: 20px;'/>");
+						} else {
+							$('#p5').html("<img src='imagenes/2.png' style='width: 20px;'/>");
+						}
+					});
+
+					$( "input[name='p6']" ).click(function(){
+						var value = $(this).val();
+						if(value=="d") {
+							$("#p6").html("<img src='imagenes/1.png' style='width: 20px;'/>");
+						} else {
+							$('#p6').html("<img src='imagenes/2.png' style='width: 20px;'/>");
+						}
+					});
+
+					$( "input[name='p7']" ).click(function(){
+						var value = $(this).val();
+						if(value=="c") {
+							$("#p7").html("<img src='imagenes/1.png' style='width: 20px;'/>");
+						} else {
+							$('#p7').html("<img src='imagenes/2.png' style='width: 20px;'/>");
+						}
+					});
+
+					$( "input[name='p8']" ).click(function(){
+						var value = $(this).val();
+						if(value=="d") {
+							$("#p8").html("<img src='imagenes/1.png' style='width: 20px;'/>");
+						} else {
+							$('#p8').html("<img src='imagenes/2.png' style='width: 20px;'/>");
+						}
+					});
+
+					$( "input[name='p9']" ).click(function(){
+						var value = $(this).val();
+						if(value=="a") {
+							$("#p9").html("<img src='imagenes/1.png' style='width: 20px;'/>");
+						} else {
+							$('#p9').html("<img src='imagenes/2.png' style='width: 20px;'/>");
+						}
+					});
+
+					$( "input[name='p10']" ).click(function(){
+						var value = $(this).val();
+						if(value=="a") {
+							$("#p10").html("<img src='imagenes/1.png' style='width: 20px;'/>");
+						} else {
+							$('#p10').html("<img src='imagenes/2.png' style='width: 20px;'/>");
+						}
+					});
+
+
+					$( "input[name='p11']" ).click(function(){
+						var value = $(this).val();
+						if(value=="a") {
+							$("#p11").html("<img src='imagenes/1.png' style='width: 20px;'/>");
+						} else {
+							$('#p11').html("<img src='imagenes/2.png' style='width: 20px;'/>");
+						}
+					});
+
+
+					$( "input[name='p12']" ).click(function(){
+						var value = $(this).val();
+						if(value=="a") {
+							$("#p12").html("<img src='imagenes/1.png' style='width: 20px;'/>");
+						} else {
+							$('#p12').html("<img src='imagenes/2.png' style='width: 20px;'/>");
+						}
+					});
+
+
+
+					$( "input[name='p13']" ).click(function(){
+						var value = $(this).val();
+						if(value=="a") {
+							$("#p13").html("<img src='imagenes/1.png' style='width: 20px;'/>");
+						} else {
+							$('#p13').html("<img src='imagenes/2.png' style='width: 20px;'/>");
+						}
+					});
+
+
+					$( "input[name='p14']" ).click(function(){
+						var value = $(this).val();
+						if(value=="a") {
+							$("#p14").html("<img src='imagenes/1.png' style='width: 20px;'/>");
+						} else {
+							$('#p14').html("<img src='imagenes/2.png' style='width: 20px;'/>");
+						}
+					});
+
+				});
+
+			</script>
+		</div>
+	</body>
+	</html>	
